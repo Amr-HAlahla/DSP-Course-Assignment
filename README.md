@@ -17,13 +17,13 @@ In this assignment, the goal was to develop a system capable of analyzing speech
 
 ## Included MATLAB Scripts:
 
-1. **audioRecorderGUI.m:** A script providing a graphical user interface for recording, playing back, and saving audio files. Used to collect voice recordings for dataset creation.
+1. `audioRecorderGUI.m` A script providing a graphical user interface for recording, playing back, and saving audio files. Used to collect voice recordings for dataset creation.
 
-2. **splitData.m:** Splits the dataset into records for male and female speakers and further divides them into training and testing sets.
+2. `splitData.m` Splits the dataset into records for male and female speakers and further divides them into training and testing sets.
 
-3. **time_domain.m:** Implements the time-domain system for training and classification, utilizing ZCR, Energy, and Correlation features.
+3. `time_domain.m` Implements the time-domain system for training and classification, utilizing ZCR, Energy, and Correlation features.
 
-4. **freq_domain.m:** Implements the frequency-domain system for training and classification, utilizing Power Spectral Density (PSD) as the main feature.
+4. `freq_domain.m` Implements the frequency-domain system for training and classification, utilizing Power Spectral Density (PSD) as the main feature.
 
 ## Assignment PDF:
 
